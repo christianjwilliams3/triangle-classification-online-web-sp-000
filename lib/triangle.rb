@@ -6,4 +6,7 @@ class Triangle
     @c = c 
   end 
   
+  def kind 
+    validate_triangle 
+    
 end 
