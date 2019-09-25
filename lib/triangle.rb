@@ -9,4 +9,5 @@ class Triangle
   def kind 
     validate_triangle 
     if a == b && b == c 
+      :equal
 end 
