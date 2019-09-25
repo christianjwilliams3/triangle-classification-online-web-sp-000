@@ -10,5 +10,5 @@ class Triangle
     validate_triangle 
     if a == b && b == c 
       :equilateral
-    
+    elsif a == b || b == c || a == c
 end 
